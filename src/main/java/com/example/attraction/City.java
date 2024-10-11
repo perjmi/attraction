@@ -14,6 +14,11 @@ public class City {
         this.city_id = city_id;
     }
 
+    public City() {
+        this.name="Roskilde";
+        this.city_id=1;
+    }
+
     public String getName() {
         return name;
     }
